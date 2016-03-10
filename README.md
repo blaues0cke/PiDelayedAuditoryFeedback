@@ -4,7 +4,7 @@ A very simple RaspberryPi project that delays input audio about 200ms to the out
 
 ### Installation
 
-Just unzip all the files to `/usr/pi-delayed-auditory-feedback/`. To install the crontab, just type:
+Just unzip all the files to `/usr/pi-delayed-auditory-feedback`. To install the service, just type:
 
     sudo sh /usr/pi-delayed-auditory-feedback/install.sh
 
