@@ -2,9 +2,15 @@
 
 A very simple RaspberryPi project that delays input audio about 200ms to the output audio to get something that is called "delayed auditory feedback". The usage of a similar solution is quite popular in german tv show called [Circus HalliGalli](http://www.prosieben.de/tv/circus-halligalli) or the "SpeechJammer" project.
 
-## Installation
+### Installation
 
-TODO
+Just unzip all the files to `/usr/pi-delayed-auditory-feedback/`. To install the crontab, just type:
+
+    sudo sh /usr/pi-delayed-auditory-feedback/install.sh
+
+Or run this code (one line) to automatically download and install everything you need:
+
+    sudo mkdir /usr/pi-delayed-auditory-feedback && sudo wget -O /usr/pi-delayed-auditory-feedback/pi-delayed-auditory-feedback.zip https://github.com/blaues0cke/PiDelayedAuditoryFeedback/archive/master.zip && sudo unzip /usr/pi-delayed-auditory-feedback/pi-delayed-auditory-feedback.zip -d /usr/pi-delayed-auditory-feedback && sudo cp -rf /usr/pi-delayed-auditory-feedback/PiDelayedAuditoryFeedback-master/* /usr/pi-delayed-auditory-feedback && sudo rm -rf /usr/pi-delayed-auditory-feedback/PiDelayedAuditoryFeedback-master && sudo rm /usr/pi-delayed-auditory-feedback/pi-delayed-auditory-feedback.zip && sudo sh /usr/pi-delayed-auditory-feedback/install.sh
 
 ## Configuration
 
